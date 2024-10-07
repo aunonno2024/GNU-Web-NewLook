@@ -1,0 +1,78 @@
+body, html{
+    font-family: Arial, sans-serif;
+    background-color: #e6cb7c;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .navbar {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+
+  .navbar li {
+    padding: 0;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .content {
+    text-align: left;
+    padding: 50px 20px;
+  }
+
+  h1 {
+    display: table;
+    margin: 0px auto 0px auto;
+    padding:5px;font-size:20px;background-color:green;color:#ffffff;
+  }
+
+  #pt-1 {
+    text-align: center;
+  }
+
+  .Distros, .Distros li, .Distros a {
+    list-style: circle;
+    display: flexbox;
+    padding: 5;
+    text-decoration: dotted;
+    color: rgb(90, 12, 6);
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #d3a34b;
+    min-height: 100px;
+    padding: 20px 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+  }

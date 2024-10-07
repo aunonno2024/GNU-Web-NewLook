@@ -1,0 +1,187 @@
+body, html{
+    font-family: Arial, sans-serif;
+    background-color: #e6cb7c;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .navbar {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+
+  .navbar li {
+    padding: 0;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .content {
+    text-align: left;
+    padding: 50px 20px;
+  }
+
+  .gnu-40 {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    bottom: 520px;
+    right: 10px;
+  }
+
+@media (max-width: 760px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar {
+    margin-top: 20px;
+  }
+
+  .content {
+    padding: 30px 15px;
+  }
+}
+
+.text {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.first-page-container {
+  background-color: #e6c76b;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 80%;
+  margin: 10rem auto 0 auto;
+}
+
+.image {
+ height: 350px;
+}
+
+.paragraph {
+  width: 70%;
+  font-size: 20px;
+  color: #080000;
+}
+
+.first-page-container h1{
+  color: blueviolet;
+  margin-top: 100px;
+
+}
+
+.second-page-container {
+  background-color: #e6c76b;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 80%;
+  margin: 10rem auto 0 auto;
+}
+
+.second-page-container h1 {
+  color: blueviolet;
+  margin-top: 110px;
+}
+
+.image-2 {
+  height: 450px;
+}
+
+.paragraph-2 {
+  width: 70%;
+  font-size: 20px;
+  color: #080000;
+}
+
+.third-page-container {
+  background-color: #e6c76b;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 80%;
+  margin: 10rem auto 0 auto;
+}
+
+.third-page-container h1{
+  color: blueviolet;
+  margin-top: 110px;
+  margin-left: 10px;
+}
+
+.image-3 {
+  height: 400px;
+}
+
+.paragraph-3 {
+  width: 70%;
+  font-size: 20px;
+  color: #080000;
+  margin-left: 80px;
+}
+
+.fourth-page-container {
+  background-color: #e6c76b;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 80%;
+  margin: 10rem auto 0 auto;
+}
+
+.fourth-page-container h1{
+  color: blueviolet;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+.image-4 {
+  height: 400px;
+}
+
+.paragraph-4 {
+  width: 70%;
+  font-size: 20px;
+  color: #080000;
+  margin-left: 10px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: #d3a34b;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}

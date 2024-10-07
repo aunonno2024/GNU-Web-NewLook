@@ -1,0 +1,187 @@
+body, html{
+    font-family: Arial, sans-serif;
+    background-color: #e6cb7c;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .navbar {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+
+  .navbar li {
+    padding: 0;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .content {
+    text-align: left;
+    padding: 50px 20px;
+  }
+
+  .form {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 100px 1000px 40px 100px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+  }
+
+  .form form {
+    margin: auto;
+    max-width: 600px;
+  }
+
+  .form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .form input, .form textarea, .form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+
+  .form input:focus, .form textarea:focus,  .form select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  .form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+  }
+
+  .form button:hover {
+    filter: brightness(85%);
+  }
+
+  .form ::placeholder {
+    font-family: inherit;
+    opacity: 0.7;
+  }
+
+  .form input[type='checkbox'] {
+    margin-right: 8px;
+    width: auto;
+  }
+
+  .form fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+  }
+
+  .form legend {
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .form input[type='radio'] {
+    margin-right: 8px;
+    margin-top: 4px;
+    width: auto;
+    cursor: pointer;
+  }
+
+  .form .radio-label {
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+  .radio-group {
+    margin-bottom: 16px;
+  }
+
+  .form .donation-type {
+    margin-bottom: 16px;
+  }
+
+  .form .donation-type span {
+    font-weight: 500;
+    margin-right: 10px;
+  }
+
+  .form input[type='number'] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+
+  .form input[type='number']::-webkit-inner-spin-button, .form input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .form .form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .form .form-check-input {
+    margin-top: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .form .form-check-label {
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #d3a34b;
+    min-height: 100px;
+    padding: 20px 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+  }
