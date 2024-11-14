@@ -5,7 +5,12 @@
 
 *Videos & Photos : Another thing i would like to mention which is they added videos to their website which is unnecessary to be honest! No one will visit your site only to watch a 1 hour or 2 hour long video. People mostly visit YouTube so rather then adding videos there if gnu community create a "Official GNU Channel" and add their videos there i think that will be good!
 
-
+# A Short Review:
 
 ![Short Review](https://github.com/user-attachments/assets/1d0522f2-4f8a-4baa-b1bf-e950c7d3f42b)
 
+
+
+# A Full Review:
+
+[https://youtu.be/q5VicYy2yrw](https://www.youtube.com/watch?v=q5VicYy2yrw)
