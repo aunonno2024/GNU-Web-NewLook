@@ -71,7 +71,7 @@ This is an open proposal for the GNU community. Feedback, suggestions, and colla
 ## 🔗 Links
 
 - [Original GNU Website](https://gnu.org)
-- [Live Demo]([your-demo-link-here](https://www.youtube.com/watch?v=q5VicYy2yrw))
+- [Live Demo] (https://www.youtube.com/watch?v=q5VicYy2yrw)
 
 # A Short Review:
 
