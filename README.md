@@ -1,3 +1,5 @@
+![osa_github_banner](https://github.com/user-attachments/assets/491c0563-a2ee-4d01-acf2-8ea6d86c936f)
+
 # GNU Web NewLook - UX/UI Redesign Proposal
 
 A modern redesign proposal for the GNU.org website, focusing on improved user experience and streamlined navigation.
